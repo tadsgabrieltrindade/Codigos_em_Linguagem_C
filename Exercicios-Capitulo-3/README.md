@@ -1,1 +1,1 @@
-Desenvolver os programas abaixo com o diagrama de blocos e seus respectivos códigos em C.
+Desenvolver os programas com o diagrama de blocos e seus respectivos códigos em C.
