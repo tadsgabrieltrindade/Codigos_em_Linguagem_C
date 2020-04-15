@@ -9,7 +9,8 @@ int main(){
     printf("\n Digite a temperatura em Celsius: \n");
     scanf("%f", &Tc);
     F = ((9*Tc+160)/5);
-    printf("\n Sua temperatura é %.1f°F", F);
+    printf("\n Sua temperatura é %.1f°F \n", F);
+    system("\npause");
+
 return 0;
-system("\npause");
 }

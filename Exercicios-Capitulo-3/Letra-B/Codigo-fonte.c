@@ -9,8 +9,9 @@ int main(){
     printf("\n Digite a temperatura em Fahrenheit: \n");
     scanf("%f", &Tf);
     C = (((Tf-32)*5)/9);
-    printf("\n Sua temperatura é %.1f°C", C);
+    printf("\n Sua temperatura é %.1f°C \n", C);
+    system("\npause");
 return 0;
-system("\npause");
+
 }
 
