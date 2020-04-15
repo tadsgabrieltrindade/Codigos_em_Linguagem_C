@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<locale.h>
+
+int main(){
+    setlocale(LC_ALL, "Portuguese");
+    float H, R, V;
+    H=R=V=0.0;
+    printf("\t\t\t\t Calculadora do Volume de uma lata de óleo");
+    printf("\n Digite a altura da lata em metros: \n");
+    scanf("%f", &H);
+    printf("\n Digite o raio da lata em metros: \n");
+     scanf("%f", &R);
+    V= (3,14*R*R*H);
+    printf("\n O volume da lata de óleo é de aproximadamente %f metros cúbicos", V);
+return 0;
+system("\npause");
+}
