@@ -10,7 +10,7 @@ int main(){
     scanf("%f", &Tc);
     F = ((9*Tc+160)/5);
     printf("\n Sua temperatura é %.1f°F \n", F);
-    system("\npause");
+    system("pause");
 
 return 0;
 }
