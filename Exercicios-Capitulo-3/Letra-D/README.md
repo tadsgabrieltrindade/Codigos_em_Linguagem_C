@@ -1,2 +1,2 @@
 # Letra D
- Efetuar o cálculo da quantidade de litros de combustível gasta em uma viagem,
+ Efetuar o cálculo da quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz 12 Km/litro. Para obter o cálculo, o usuário deve fornecer o tempo gasto (variável TEMPO) e a velocidade média (variável VELOCIDADE) durante a viagem.

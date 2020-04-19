@@ -1,1 +1,2 @@
-# Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit.
+# Letra A
+ Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit.
