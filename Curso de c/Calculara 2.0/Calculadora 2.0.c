@@ -13,6 +13,8 @@ int main(){
 
     do {
 
+system("cls");
+printf("\t\t\t\t\t Calculadora 2.0 \n\n\n");
             num1=num2=result=0;
         printf(" Digite (1) para somar; \n");
         printf(" Digite (2) para subtrair; \n");
@@ -25,6 +27,8 @@ int main(){
         if (op == 0){
 
         }else{
+            if(op>5){printf("\n>>>Número da operação inválida!!<<<\n\n");
+            }else{
 
           num1 = num2 = result = 0;
         printf("\nDigite o primeiro valor: ");
@@ -34,28 +38,27 @@ int main(){
 
             if (op == 1){
                 result = (num1 + num2);
-                printf("\nO resultado da soma entre %1.f e %1.f é %1.f. \n\n", num1, num2, result);
+                printf("\nO resultado da soma entre %1.f e %1.f é >>%1.f<<. \n\n", num1, num2, result);
             }else{
                   if (op == 2){
                     result = (num1 - num2);
-                    printf("\nO resultado da subtração entre %1.f e %1.f é %1.f.\n\n", num1, num2, result);
+                    printf("\nO resultado da subtração entre %1.f e %1.f é >>%1.f<<.\n\n", num1, num2, result);
                   }else{
                         if (op == 3){
                             result = (num1 * num2);
-                            printf("\nO resultado da multiplicação entre %1.f e %1.f é %1.f.\n\n", num1, num2, result);
+                            printf("\nO resultado da multiplicação entre %1.f e %1.f é >>%1.f<<.\n\n", num1, num2, result);
                         }else{
                               if( op == 4){
                                 result = (num1 / num2);
-                                printf("\nO resultado da divisão entre %1.f e %1.f é %1.f.\n\n", num1, num2, result);
+                                printf("\nO resultado da divisão entre %1.f e %1.f é >>%1.f<<.\n\n", num1, num2, result);
                               }
                         }
                   }
             }
     }
-    }
-
-
-while (op != 0); }
+        }
+   system("pause");
+    }while (op != 0); }
 
 
 
