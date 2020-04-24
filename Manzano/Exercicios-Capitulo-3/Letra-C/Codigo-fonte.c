@@ -6,10 +6,10 @@
 int main(){
     setlocale(LC_ALL, "Portuguese");
 
-    float altura, raio, volume, area, pi;
+    float altura, raio, volume, area;
 
     altura = raio = volume = area = 0;
-      pi = 3.14159;
+    const float pi = 3.14159;
     printf("\nDigite o raio da base em cm: \n>>> ");
     scanf("%f", &raio);
         area = (( pow(raio, 2))*pi);
