@@ -24,5 +24,6 @@ B1= A2;
 
 printf("\nO valor da variável A agora é %i e da variável B é %i. \n", A1, B1);
 
+    system("\npause");
     return 0;
 }
