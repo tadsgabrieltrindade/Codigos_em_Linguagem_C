@@ -9,8 +9,10 @@ int main()
     setlocale(LC_ALL,"Portuguese");
 int candA, candB, candC, votosNulos, votosBrancos, votosValidos, qntEleitores;
 candA = candB = candC = votosNulos = votosBrancos = votosValidos = qntEleitores = 0;
+
 float percentualValidos, percentualA, percentualB, percentualC, percentualNulos, percentualBrancos;
 percentualValidos = percentualA = percentualB = percentualC = percentualNulos = percentualBrancos = 0.0;
+
 printf("Digite a quantidade de votos do candidato A: \n>>> ");
 scanf("%i", &candA);
 printf("\nDigite a quantidade de votos do candidato B: \n>>> ");
@@ -32,12 +34,12 @@ percentualNulos = ((votosNulos * 100) / qntEleitores);
 percentualBrancos = ((votosBrancos * 100) / qntEleitores);
 
 printf("\nA quantidade de eleitores foi de %i.\n", qntEleitores);
-printf("\nO percentual de votos válidos em relação ao total foi de %1.f%%.\n", percentualValidos);
-printf("\nO percentual de votos válidos do candidato A em relação ao total foi de %1.f%%.\n", percentualA);
-printf("\nO percentual de votos válidos do candidato B em relação ao total foi de %1.f%%.\n", percentualB);
-printf("\nO percentual de votos válidos do candidato C em relação ao total foi de %1.f%%.\n", percentualC);
-printf("\nO percentual de votos nulos em relação ao total foi de %1.f%%.\n", percentualNulos);
-printf("\nO percentual de votos em branco em relação ao total foi de %1.f%%.\n", percentualBrancos);
+printf("\nO percentual de votos vï¿½lidos em relaï¿½ï¿½o ao total foi de %1.f%%.\n", percentualValidos);
+printf("\nO percentual de votos vï¿½lidos do candidato A em relaï¿½ï¿½o ao total foi de %1.f%%.\n", percentualA);
+printf("\nO percentual de votos vï¿½lidos do candidato B em relaï¿½ï¿½o ao total foi de %1.f%%.\n", percentualB);
+printf("\nO percentual de votos vï¿½lidos do candidato C em relaï¿½ï¿½o ao total foi de %1.f%%.\n", percentualC);
+printf("\nO percentual de votos nulos em relaï¿½ï¿½o ao total foi de %1.f%%.\n", percentualNulos);
+printf("\nO percentual de votos em branco em relaï¿½ï¿½o ao total foi de %1.f%%.\n", percentualBrancos);
 
 
 
