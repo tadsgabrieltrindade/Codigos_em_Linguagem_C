@@ -1,0 +1,3 @@
+# Letra E
+
+Efetuar a leitura de três valores numéricos (representados pelas variáveis A, B e C) e processar o cálculo da equação completa de segundo grau, utilizando a fórmula de Bhaskara (considere para a solução de problema todas as possíveis condições para delta: delta < 0 - não há solução real, delta = 0 há uma solução real, delta > 0 há duas soluções reais). Lembre-se de esta equação tem todos os coeficientes diferentes de zero. O programa deve apresentar respostas para todas as condições estabelecidas para delta.
