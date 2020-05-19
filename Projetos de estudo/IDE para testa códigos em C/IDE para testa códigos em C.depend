@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1589929993 source:c:\users\justd\documents\meuprojetos\programas-em-c\projetos de estudo\ide para testa códigos em c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<ctype.h>
+	<math.h>
+

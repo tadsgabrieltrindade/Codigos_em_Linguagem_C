@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1589419436 source:c:\users\justd\documents\meuprojetos\programas-em-c\projetos de estudo\projetos de testes\main.c
-
-1589420647 source:c:\users\justd\documents\meuprojetos\programas-em-c\projetos de estudo\projetos de testes\main02.c
-	<stdio.h>
-	<stdlib.h>
-	<conio.h>
-	<locale.h>
-
