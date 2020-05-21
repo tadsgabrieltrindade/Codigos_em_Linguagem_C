@@ -7,7 +7,7 @@
 int main()
 {
     setlocale(LC_ALL,"Portuguese");
-    printf("\t\t\t\tCapítulo 5 - Letra C\n\n");
+    printf("\t\t\t\tCapÃ­tulo 5 - Letra C\n\n");
 
 int i, R;
 i = 2;
@@ -16,7 +16,7 @@ R = 1;
             R = R + i;
             i++;
     }
-    printf("\nO resultado da soma dos cem primeiros números naturais é %i.\n", R);
+    printf("\nO resultado da soma dos cem primeiros nÃºmeros naturais Ã© %i.\n", R);
 
  system("\npause\n");
     return 0;
