@@ -16,4 +16,6 @@ int R=0;
         }
     i++;
     }while(i <=20);
+
+system("\n\n\n\tpause\n");
 }
