@@ -5,22 +5,18 @@
 #include <math.h>
 
 int main (){
-    printf("\t\t\t\tLetra I - Cap. 5");
+    printf("\t\t\t\tLetra K - Cap. 5");
     setlocale(LC_ALL, "Portuguese");
-int i, ATUAL, ANTERIOR, PROXIMO;
-i = ANTERIOR = PROXIMO = 0;
-ATUAL = 1;
-printf("\nA sequência de Fibonacci até o décimo quinto termo é:\n ");
-printf("0 - 1 - ");
-    do{
-        PROXIMO = ANTERIOR + ATUAL;
-        printf("%i - ", PROXIMO);
-        i++;
-        ANTERIOR = ATUAL;
-        ATUAL = PROXIMO;
-    }while(i<=12);
+int N, F;
+N = 1;
+    while(N<=10){
+        if(!(N % 2 == 0)){
+         F = pow((N - 1), N);
+         N++;
+        }else{}
+    }
 
-printf("\n");
+printf("\n\n");
 system("\npause\n");
 return 0;
 }
