@@ -5,7 +5,7 @@
 #include <math.h>
 
 int main (){
-    printf("\t\t\t\tLetra P - Cap. 5");
+    printf("\t\t\t\tLetra P - Cap. 5\n\n");
     setlocale(LC_ALL, "Portuguese");
 
 int i, m, s;
@@ -19,7 +19,7 @@ i = 50;
         }else{i++;}
     }while(i<=70);
 
-    printf("\nA soma é %i e a média é %i.\n", s, m);
+    printf("\nA soma dos números pares situados entre 50 e 70 é %i e a sua média é %i.\n", s, m);
 printf("\n\n");
 system("\npause\n");
 return 0;

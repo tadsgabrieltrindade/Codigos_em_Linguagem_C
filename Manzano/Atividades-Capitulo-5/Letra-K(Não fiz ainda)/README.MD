@@ -1,2 +1,3 @@
 # Letra K
 
+Escrever um programa que calcule e apresente o somatório do número de grãos de trigo que se pode obter nem tabuleiro de xadrez, obedecendo à seguinte regra: colocar um grão de trigo no primeiro quadrado o nos quadrados seguintes o dobro do quadrado anterior. Ou seja, no primeiro quadrado coloca-se um grão, no segundo quadrado colocam-se 2 grãos (neste momento têm-se 3 grãos), no terceiro quadrado colocam-se 4 grãos (neste momento há 7 grãos). Fazer isso até atingir o sexagésimo quarto quadrado.
