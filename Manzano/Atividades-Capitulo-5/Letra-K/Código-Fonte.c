@@ -5,7 +5,7 @@
 #include <math.h>
 
 int main (){
-    printf("\t\t\t\tLetra K - Cap. 5");
+    printf("\t\t\t\tLetra K - Cap. 5\n");
     setlocale(LC_ALL, "Portuguese");
 float soma, pot;
 int i;
