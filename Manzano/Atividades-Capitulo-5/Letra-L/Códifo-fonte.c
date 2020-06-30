@@ -9,8 +9,8 @@ int main (){
 printf("\t\t\t\tLetra L - Cap. 5");
 setlocale(LC_ALL, "Portuguese");
 
-int valorLido, i, fat, somaTotal, cont;
-valorLido  = somaTotal = 0; fat = i = cont=1;
+int valorLido, i, fat, total, cont;
+valorLido  = total = 0; fat = i = cont=1;
 printf("\nDigite 15 números inteiros: \n");
 
 do{
@@ -19,11 +19,11 @@ do{
 
             for (cont = 1, fat = 1; cont <= valorLido; cont++)
                 fat = fat * cont;
-        somaTotal = fat + somaTotal;
+        total = fat + total;
    i++;
 }while(i<=15);
 
-printf("\nO valor do somatório do fatorial dos 15 números inseridos é %i.\n", somaTotal);
+printf("\nO valor do somatório do fatorial dos 15 números inseridos é %i.\n", total);
 system("\npause\n");
 return 0;
 }
