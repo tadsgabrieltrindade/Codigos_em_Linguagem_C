@@ -6,7 +6,7 @@
 
 int main (){
 
-printf("\t\t\t\tLetra L - Cap. 5");
+printf("\t\t\t\tLetra M - Cap. 5");
 setlocale(LC_ALL, "Portuguese");
 
 float valorLido, media, soma; int i = 1;
