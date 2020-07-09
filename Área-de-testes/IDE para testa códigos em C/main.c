@@ -12,7 +12,7 @@ int i, fat, cont; i = fat = cont = 1;
     while(i<=10){
         if(!(i % 2 == 0)){
                 while(cont<=i){
-                fat = fat * cont; cont++;}
+                fat*= cont; cont++;}
             printf("\n%i! = %i.\n\n", i, fat);
             i++; fat = cont = 1;
         }else
