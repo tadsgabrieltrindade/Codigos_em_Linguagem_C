@@ -1,4 +1,3 @@
 # Letra A
 
-Elaborar um programa que represente os quadrados dos números inteiros existente na faixa de valores de 15 a 200.
-
+Elaborar um programa que efetue a leitura de dez nomes de pessoas em uma matriz A do tipo vetor e apresente-os em seguida.
