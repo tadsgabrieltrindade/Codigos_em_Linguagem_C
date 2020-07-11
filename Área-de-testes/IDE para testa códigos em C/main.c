@@ -1,23 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <locale.h>
 #include <ctype.h>
-#include <math.h>
 
-int main (){
-    printf("\t\t\t\tLetra O - Cap. 5");
-    setlocale(LC_ALL, "Portuguese");
+int main() {
+  char nome [15]; char sobrenome [20]; int i = 0; int sep;
+  do{
+  printf("\nDigite seu nome: ");
+  scanf("%s", &nome[i]);
+  printf("\nAgora digite seu sobrenome: ");
+  scanf("%s", &sobrenome[i]);
+  i++;
+  for (sep = 1; sep<=60; sep++)
+  printf("-");
+  }while(i<=2);
+  printf("\nOs nomes apresentados são: \n");
+  for (i = 0; i <=2; i++){
+    printf("\n%iº nome: %s %s", i, nome[i], sobrenome[i]);
+    i++;
+  }
 
-int i, fat, cont; i = fat = cont = 1;
-    while(i<=10){
-        if(!(i % 2 == 0)){
-                while(cont<=i){
-                fat*= cont; cont++;}
-            printf("\n%i! = %i.\n\n", i, fat);
-            i++; fat = cont = 1;
-        }else
-        {i++; fat = cont = 1;}
-    }
-system("\npause\n");
-return 0;
+    return 0;
 }
