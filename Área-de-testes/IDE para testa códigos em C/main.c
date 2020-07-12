@@ -6,22 +6,21 @@
 
 int main() {
     setlocale(LC_ALL, "Portuguese");
-    printf("\t\t\t\Capítulo 6 - Letra A\n\n");
+    printf("\t\t\tCapítulo 6 - Letra B\n\n");
 
-    char pessoa[11][15]; int i = 1;
-    printf("\nDigite os primeiros nomes das pessoas dez vezes: \n");
-do{
-    printf("%iº >>> ", i);
-    scanf("%s", &pessoa[i]);
-    i++;
-}while(i<=10);
-    printf("\n");
+    int A [8] [8]; int B [8] [8] ; int i = 1;
+    printf("\nDigite oito valores para a matriz A: \n");
+    do{
+        printf(">>> "); scanf("%i",  &A[i]);
+        i++;
+    }while(i<=8);
 
-    for(int linha = 1; linha<=50; linha++){
-            printf("-");}
-            printf("\nOs nomes das pessoas inseridas são: ");
-    for (i = 1; i<=10; i++){
-        printf("\n%iº pessoa: %s ", i, pessoa[i]);}
+     printf("\nOs números inseridos na matriz A, passando-os para a matriz B, ficam: \n");
+    for(i = 0; i<=8; i++){
+        *B[i] = (*A[i]) * 3;
+        printf("\nPara posição %i da matiz A temos %i na matriz B ", i, B[i]);
+    }
     printf("\n");
+    system("\npause");
     return 0;
 }

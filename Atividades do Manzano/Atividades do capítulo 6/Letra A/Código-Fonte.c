@@ -6,12 +6,12 @@
 
 int main() {
     setlocale(LC_ALL, "Portuguese");
-    printf("\t\t\t\Capítulo 6 - Letra A\n\n");
+    printf("\t\t\tCapï¿½tulo 6 - Letra A\n\n");
 
     char pessoa[11][15]; int i = 1;
     printf("\nDigite os primeiros nomes das pessoas dez vezes: \n");
 do{
-    printf("%iº >>> ", i);
+    printf("%iï¿½ >>> ", i);
     scanf("%s", &pessoa[i]);
     i++;
 }while(i<=10);
@@ -19,9 +19,9 @@ do{
 
     for(int linha = 1; linha<=50; linha++){
             printf("-");}
-            printf("\nOs nomes das pessoas inseridas são: ");
+            printf("\nOs nomes das pessoas inseridas sï¿½o: ");
     for (i = 1; i<=10; i++){
-        printf("\n%iº pessoa: %s ", i, pessoa[i]);}
+        printf("\n%iï¿½ pessoa: %s ", i, pessoa[i]);}
     printf("\n");
     return 0;
 }
