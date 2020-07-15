@@ -11,11 +11,11 @@ int main() {
     float arrayA[20], arrayB[20], arrayC[20];  int i = 0;
     printf("\nDigite 20 elementos para a matriz A: \n");
     for(i = 0; i<20; i++){
-        printf(">>> ");
+        printf("%iº >>> ", i);
         scanf("%f", &arrayA[i]);}
     printf("\nAgora digite mais 20 elementos para a matriz B: \n");
     for(i = 0; i<20; i++){
-        printf(">>> ");
+        printf("%iº >>> ", i);
         scanf("%f", &arrayB[i]);}
     for(int linha = 0; linha<=120; linha++) //Este laço é para criar uma linha de separação entre os comandos de entrada
         printf("-");                        //e saída, assim fica mais organizado a linha
