@@ -6,7 +6,7 @@
 
 int main() {
     setlocale(LC_ALL, "Portuguese");
-    printf("\t\t\tCapítulo 6 - Letra C\n\n");
+    printf("\t\t\tCapítulo 6 - Letra D\n\n");
 
     int arrayA[15], arrayB[15], i = 0;
     printf("\nDigite 15 elementos para a matriz A: \n");
@@ -19,7 +19,7 @@ int main() {
     printf("\nSegue os valores da matriz A e o quadrado desse mesmo valor na matriz B:\n\n");
     for(i = 0; i<15 ; i++){
         arrayB[i] = arrayA[i] * arrayA[i];
-        printf("Matriz A, valor inserido %i e, na matriz B, o quadrado é %i\n", arrayA[i], arrayB[i]);
+        printf("Na matriz A, o valor inserido foi %i e, na matriz B, o quadrado dele é %i\n", arrayA[i], arrayB[i]);
     }
 
     printf("\n\n");
