@@ -12,4 +12,4 @@
 
 ---
 
-**OBS: Há alguns erros nos fluxogramas, pois sou iniante nessa área. Nos outros capítulos há uma evolução no meu conhecimento a respeito a esses processos.**
+**OBS: Há alguns erros nos fluxogramas, pois sou iniciante nesta área. Nos outros capítulos há uma evolução no meu conhecimento a respeito a esses processos.**
