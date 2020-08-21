@@ -10,4 +10,6 @@
 
 **Páginas das alternativas:** p.55 & p.56.
 
-**OBS:Há alguns erros nos fluxogramas, pois sou iniante nessa área. Nos outros capítulos há uma evolução no meu conhecimento a respeito a esses processos.**
+---
+
+**OBS: Há alguns erros nos fluxogramas, pois sou iniante nessa área. Nos outros capítulos há uma evolução no meu conhecimento a respeito a esses processos.**
