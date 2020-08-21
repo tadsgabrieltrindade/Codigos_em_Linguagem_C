@@ -9,3 +9,7 @@
 ---
 
 **Páginas das alternativas:** p.97 & p.98.
+
+---
+
+**OBS: Há alguns erros nos fluxogramas, pois sou iniciante nesta área. Nos outros capítulos há uma evolução no meu conhecimento a respeito a esses processos.**
